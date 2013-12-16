@@ -7,9 +7,7 @@ gem 'rails', '4.0.1'
 gem 'mysql2'
 
 # need postgres on production
-group :production do
-  gem 'pg', '0.15.1'
-end
+gem 'pg', '0.15.1'
 
 # Handles everything user-related out of the box
 gem 'devise', '~> 3.0.0.rc'
