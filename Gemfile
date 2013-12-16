@@ -6,6 +6,11 @@ gem 'rails', '4.0.1'
 # Use mysql as the database for Active Record
 gem 'mysql2'
 
+# need postgres on production
+group :production do
+  gem 'pg', '0.15.1'
+end
+
 # Handles everything user-related out of the box
 gem 'devise', '~> 3.0.0.rc'
 
