@@ -1,7 +1,7 @@
 stripe
 ======
 
-Stripe Payments - 
+Stripe Payments 
 
 Requirements:
 
